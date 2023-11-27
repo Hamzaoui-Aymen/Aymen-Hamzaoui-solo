@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Quotes</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <div class="search-container">
+            <input type="text" placeholder="Search.." id="search" name="search">
+            <button onclick="get()">Search</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 id="l1">Quotes Search</h1>
+        <a id="quoteDisplay"></a>
+        <ul id="list"></ul>
+        <button onclick="generateQuote()">Generate Quote</button>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
